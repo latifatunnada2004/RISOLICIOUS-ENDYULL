@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8f0">
+  <meta name="description" content="Pesan Risol Mayo Original, Keju, dan Spesial dari Risolicious.">
+  <title>Risolicious — Risol Mayo Lezat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Camilan renyah, creamy, dan bikin rindu • Pesan mudah lewat WhatsApp</div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#beranda"><span class="brand-mark">R</span> risol<span>icious.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#beranda">Beranda</a><a href="#menu">Menu</a><a href="#tentang">Tentang Kami</a>
+        <button class="cart-nav" id="cartJump">Keranjang <span id="cartCount">0</span></button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Camilan favorit semua suasana</p>
+          <h1>Gigitan renyah,<br><em>rasa bikin rindu.</em></h1>
+          <p class="hero-description">Risol mayo dengan isian creamy, gurih, dan dibuat untuk menemani momen spesialmu. Pilih favoritmu, lalu pesan dengan mudah.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#menu">Lihat Menu <span>↗</span></a><a class="text-link" href="#tentang">Kenali Risolicious</a></div>
+          <div class="hero-proof"><div class="proof-avatars"><span>☺</span><span>♡</span><span>✦</span></div><p><strong>Renyah di luar, creamy di dalam.</strong><br><small>Teman ngemil kapan saja</small></p></div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-image-frame">
+            <img src="./assets/banner.jpeg" alt="Banner Risolicious — Risol Mayo Spesial" class="hero-image">
+          </div>
+          <div class="floating-note"><span class="note-icon">✦</span><div><strong>Fresh & delicious</strong><small>Dibuat dengan sepenuh hati</small></div></div>
+          <span class="decor decor-one">✳</span><span class="decor decor-two">✦</span>
+        </div>
+      </div>
+    </section>
+    <section class="trust-strip"><div class="container trust-grid">
+      <div><span class="trust-icon">✦</span><p><strong>Rasa istimewa</strong><small>Untuk setiap gigitan</small></p></div>
+      <div><span class="trust-icon">♡</span><p><strong>Dibuat dengan cinta</strong><small>Perhatian di setiap pesanan</small></p></div>
+      <div><span class="trust-icon">⌁</span><p><strong>Pesan praktis</strong><small>Checkout via WhatsApp</small></p></div>
+    </div></section>
+    <section class="menu-section section-pad" id="menu"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Pilih camilanmu</p><h2>Menu <em>andalan.</em></h2></div><p class="section-intro">Tiga pilihan lezat yang siap menemani hari kamu. Tambahkan ke keranjang untuk mulai memesan.</p></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-image"><img src="./assets/original.jpeg" alt="Risol Mayo Original"><span class="product-tag">Favorit</span></div><div class="product-info"><div class="product-title-row"><h3>Risol Mayo Original</h3><span class="product-number">01</span></div><p>Risol keemasan dengan isian gurih dan saus mayo creamy.</p><div class="product-bottom"><div><small>Harga per pcs</small><strong class="price">Rp3.000</strong></div><button class="add-button" data-add="original" aria-label="Tambah Risol Mayo Original">+</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="./assets/keju.jpeg" alt="Risol Mayo Keju"><span class="product-tag tag-gold">Cheesy</span></div><div class="product-info"><div class="product-title-row"><h3>Risol Mayo Keju</h3><span class="product-number">02</span></div><p>Risol mayo gurih dengan tambahan keju yang menggoda.</p><div class="product-bottom"><div><small>Harga per pcs</small><strong class="price">Rp5.000</strong></div><button class="add-button" data-add="keju" aria-label="Tambah Risol Mayo Keju">+</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="./assets/spesial.jpeg" alt="Risol Mayo Spesial"><span class="product-tag tag-dark">Premium</span></div><div class="product-info"><div class="product-title-row"><h3>Risol Mayo Spesial</h3><span class="product-number">03</span></div><p>Varian spesial dengan kombinasi isian yang lebih kaya.</p><div class="product-bottom"><div><small>Harga per pcs</small><strong class="price">Rp7.000</strong></div><button class="add-button" data-add="spesial" aria-label="Tambah Risol Mayo Spesial">+</button></div></div></article>
+      </div><p class="price-note">* Harga per pcs.</p>
+    </div></section>
+    <section class="about-section section-pad" id="tentang"><div class="container about-grid">
+      <div class="about-art"><div class="about-circle">Dibuat<br><em>dengan cinta</em><span>♡</span></div><div class="about-mini">RISOLICIOUS<br><small>GOOD FOOD, GOOD MOOD</small></div></div>
+      <div class="about-copy"><p class="eyebrow">Tentang Risolicious</p><h2>Camilan sederhana,<br><em>bahagia luar biasa.</em></h2><p>Kami percaya camilan yang enak bisa membuat hari terasa lebih baik. Pilih varian favoritmu dan isi detail pemesanan agar kami bisa menyiapkan pesanan dengan tepat.</p><a class="text-link" href="#checkout">Yuk, pesan sekarang ↗</a></div>
+    </div></section>
+    <section class="checkout-section section-pad" id="checkout"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Satu langkah lagi</p><h2>Pesan <em>sekarang.</em></h2></div><p class="section-intro">Isi detail di bawah ini. Pesanan akan dirangkum otomatis untuk WhatsApp.</p></div>
+      <div class="checkout-grid">
+        <div class="cart-panel"><div class="panel-heading"><div><span class="panel-kicker">01 / PESANAN</span><h3>Keranjang kamu</h3></div><span class="cart-bubble" id="cartCountLarge">0 item</span></div>
+          <div id="cartItems" class="cart-items"><div class="empty-cart"><span>🛍</span><strong>Keranjang masih kosong</strong><small>Tambahkan menu favoritmu dari bagian menu.</small><a href="#menu" class="text-link">Pilih menu ↗</a></div></div>
+          <div class="cart-summary"><div><span>Subtotal</span><strong id="subtotal">Rp0</strong></div><div><span>Ongkos kirim</span><strong>Dikonfirmasi admin</strong></div><div class="grand-total"><span>Estimasi total produk</span><strong id="grandTotal">Rp0</strong></div><small>Ongkos kirim belum dihitung. Admin akan mengonfirmasi biaya pengiriman.</small></div>
+        </div>
+        <form class="order-form" id="orderForm"><div class="panel-heading"><div><span class="panel-kicker">02 / DATA PEMESAN</span><h3>Detail pengiriman</h3></div></div>
+          <div class="form-grid">
+            <label class="full-field">Nama lengkap <span>*</span><input name="nama" autocomplete="name" required placeholder="Nama penerima pesanan"></label>
+            <label>Nomor WhatsApp <span>*</span><input name="wa" type="tel" autocomplete="tel" required inputmode="tel" placeholder="08xxxxxxxxxx"></label>
+            <label>Email (opsional)<input name="email" type="email" autocomplete="email" placeholder="nama@email.com"></label>
+            <label class="full-field">Alamat lengkap <span>*</span><textarea name="alamat" autocomplete="street-address" required rows="3" placeholder="Jalan, nomor rumah, RT/RW, patokan..."></textarea></label>
+            <label>Kecamatan <span>*</span><input name="kecamatan" required placeholder="Nama kecamatan"></label>
+            <label>Kota/Kabupaten <span>*</span><input name="kota" required placeholder="Kota atau kabupaten"></label>
+            <label>Kode pos<input name="kodepos" inputmode="numeric" placeholder="Contoh: 50123"></label>
+            <label>Jumlah / paket<input name="paket" placeholder="Contoh: 1 box (opsional)"></label>
+            <label class="full-field">Metode pembayaran <span>*</span><select name="pembayaran" required><option value="">Pilih metode pembayaran</option><option value="COD (bayar saat pesanan diterima)">COD (bayar saat pesanan diterima)</option><option value="Transfer bank (menunggu konfirmasi admin)">Transfer bank (menunggu konfirmasi admin)</option><option value="E-wallet (menunggu konfirmasi admin)">E-wallet (menunggu konfirmasi admin)</option></select><small>Metode pembayaran akan dikonfirmasi penjual.</small></label>
+            <label class="full-field">Catatan pesanan<textarea name="catatan" rows="2" placeholder="Catatan untuk penjual (opsional)"></textarea></label>
+          </div>
+          <label class="consent"><input type="checkbox" required><span>Saya memastikan detail pemesanan dan alamat sudah benar.</span></label>
+          <button class="button button-primary submit-order" type="submit">Kirim pesanan via WhatsApp <span>↗</span></button>
+          <p class="form-note">WhatsApp akan terbuka dengan ringkasan pesanan. Pesanan dikonfirmasi setelah admin membalas.</p><p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#beranda"><span class="brand-mark">R</span> risol<span>icious.</span></a><p>Renyahnya bikin senang, rasanya bikin kangen.</p><small>© <span id="year"></span> Risolicious. Dibuat dengan ♡</small></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body></html>
